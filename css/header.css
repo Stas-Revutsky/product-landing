@@ -1,0 +1,27 @@
+.navbar{
+    top: 0; 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px 20px;
+    min-height: 75px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+} 
+
+.logo-container{
+    display: true
+} 
+
+.header__h1-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+@media(min-width:600px){
+
+}

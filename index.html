@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>Sneakers landind</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <div class="logo-container">
-                <img class="logo" src="img/sneakers-logo.svg" alt="sneakers logo">
-            </div>
+        <nav class="navbar">
+            <img width="30px" class="logo" src="img/sneakers-logo.svg" alt="sneakers logo">
             <div class="navbar__links">
                 <ul>
                     <li class="navbar-item"><a href="">Features</a></li>
@@ -21,7 +24,9 @@
                 </ul>
             </div>
         </nav>
-        <h1>Cool Sneakers</h1>
+        <div class="header__h1-container">
+            <h1>Cool Sneakers</h1>
+        </div>
     </header>
     <section class="get-started">
         <form class="email-form" action="#">
@@ -31,58 +36,75 @@
     </section>
     <section class="features">
         <article class="feature__item">
-            <img src="img/quality.svg" alt="quality icon">
-            <h3 class="features__item-name">Quality Assurance</h3>
-            <p class="features__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi expedita saepe corrupti? Facere culpa praesentium quod cum reprehenderit iste tempore repellat dignissimos autem eligendi, dolor neque animi delectus aliquid rem.</p>
+            <img class="features__item-icon" src="img/quality.svg" alt="quality icon">
+            <div class="features__item-text-conainer">
+                <h3 class="features__item-name">Quality Assurance</h3>
+                <p class="features__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                    expedita saepe corrupti? Facere culpa praesentium quod cum reprehenderit iste tempore repellat
+                    dignissimos autem eligendi, dolor neque animi delectus aliquid rem.</p>
+            </div>
         </article>
         <article class="feature__item" id="features">
-            <img src="img/delivery.svg" alt="fast delivery icon">
-            <h3 class="features__item-name">Fast Shipping</h3>
-            <p class="features__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maxime optio expedita! Aliquam, cum similique dolor consectetur dolores quam provident. Doloremque corporis voluptatibus provident! Illo libero tenetur culpa quae dicta.</p>
+            <img class="features__item-icon" src="img/delivery.svg" alt="fast delivery icon">
+            <div class="features__item-text-conainer">
+                <h3 class="features__item-name">Fast Shipping</h3>
+                <p class="features__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maxime
+                    optio expedita! Aliquam, cum similique dolor consectetur dolores quam provident. Doloremque corporis
+                    voluptatibus provident! Illo libero tenetur culpa quae dicta.</p>
+            </div>
         </article>
         <article class="feature__item">
-            <img src="img/fabric.svg" alt="fabric icon">
-            <h3 class="features__item-name">Premium Materials</h3>
-            <p class="features__item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magnam tempora nulla odit quidem aliquid, asperiores ea molestias beatae? Numquam corrupti voluptatibus sunt, beatae autem excepturi quaerat vitae fugiat quod.</p>
+            <img class="features__item-icon" src="img/fabric.svg" alt="fabric icon">
+            <div class="features__item-text-conainer">
+                <h3 class="features__item-name">Premium Materials</h3>
+                <p class="features__item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magnam
+                    tempora nulla odit quidem aliquid, asperiores ea molestias beatae? Numquam corrupti voluptatibus
+                    sunt, beatae autem excepturi quaerat vitae fugiat quod.</p>
+            </div>
         </article>
     </section>
-    <section class="video-link" id="advertisement">
-        <iframe src="https://www.youtube.com/embed/PZIqV7wNyyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="video" id="advertisement">
+        <iframe class="video-link" src="https://www.youtube.com/embed/PZIqV7wNyyU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </section>
-    <section class="products">
-        <Article class="products__item">
-            <h3 class="products__item-name">Air Force 1</h3>
-            <p class="products__item-price">$110</p>
-            <ul class="product__item-description">
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum.</li>
-            </ul>
-            <button class="products__item-button">Select</button>
-        </Article>
-        <Article class="products__item">
-            <h3 class="products__item-name">Air max 90</h3>
-            <p class="products__item-price">$130</p>
-            <ul class="product__item-description">
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum.</li>
-            </ul>
-            <button class="products__item-button">Select</button>
-        </Article>
-        <Article class="products__item">
-            <h3 class="products__item-name">Air Jordan 9 Retro</h3>
-            <p class="products__item-price">$200</p>
-            <ul class="product__item-description">
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum.</li>
-            </ul>
-            <button class="products__item-button">Select</button>
-        </Article>
+    <section class="products-section">
+        <!-- <div class="products"> -->
+            <Article class="products__item">
+                <h3 class="products__item-name">Air Force 1</h3>
+                <p class="products__item-price">$110</p>
+                <ul class="product__item-description">
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="products__item-button">Select</button>
+            </Article>
+            <Article class="products__item">
+                <h3 class="products__item-name">Air max 90</h3>
+                <p class="products__item-price">$130</p>
+                <ul class="product__item-description">
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="products__item-button">Select</button>
+            </Article>
+            <Article class="products__item">
+                <h3 class="products__item-name">Air Jordan 9 Retro</h3>
+                <p class="products__item-price">$200</p>
+                <ul class="product__item-description">
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="products__item-button">Select</button>
+            </Article>
+        <!-- </div> -->
     </section>
     <footer class="footer">
         <ul class="footer__links">
@@ -93,4 +115,5 @@
         <p class="footer__copyright">Copyright 2016, Original Sneakers</p>
     </footer>
 </body>
+
 </html>

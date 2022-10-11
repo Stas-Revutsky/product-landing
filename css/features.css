@@ -1,0 +1,17 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.features__item-icon{
+    display: none;
+}
+
+.features__item-text-container{
+    display: flex;
+    flex-direction: column;
+
+}

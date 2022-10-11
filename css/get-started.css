@@ -1,0 +1,12 @@
+.email-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-started__button{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.get-started__form{
+    padding: 7px;
+}

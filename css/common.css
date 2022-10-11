@@ -1,4 +1,38 @@
+
+
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    min-width: 242px;
+}
+
+:root{
+    --button-color: #f1c40f;
+    --links-color: #000;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: var(--links-color);
+    text-decoration: none;
+}
+section{
+    margin-top: 20px;
+}
+.get-started__button, .products__item-button{
+    background-color: var(--button-color);
+    padding: 8px;
+    border: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.get-started__button:hover, .products__item-button:hover{
+    background-color: orange;
+    transition: 0.3s linear  ;
 }
