@@ -23,5 +23,15 @@
 }
 
 @media(min-width:600px){
-
+    .navbar{
+        flex-direction: row;
+    }
+}
+@media(min-width:650px){
+    .navbar__links-list{
+        display: flex;
+    }
+    .navbar__links-list > li{
+        margin: 15px;
+    }
 }

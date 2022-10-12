@@ -8,10 +8,25 @@
 
 .features__item-icon{
     display: none;
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .features__item-text-container{
     display: flex;
     flex-direction: column;
 
+}
+@media(min-width:550px){
+    .features{
+        height: 400px;
+        text-align: left;
+    }
+    .features__item-icon{
+        display: flex;
+    }
+    .feature__item{
+        display: flex;
+    }
 }
