@@ -11,6 +11,9 @@
     background-color: aliceblue;
     text-align: center;
 } 
+.logo{
+    width: 30px;
+}
 
 .logo-container{
     display: true
